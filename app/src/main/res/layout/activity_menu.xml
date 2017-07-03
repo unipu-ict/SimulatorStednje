@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.matija.simulatorstednje.MenuActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="366dp"
+            android:layout_height="wrap_content"
+            android:text="Kalkulator štednje omogućava da izračun koliko ćete novca imati ako određeni iznos oročite na određeni broj godina po određenoj kamatnoj stopi i ne povlačite ga tijekom tog perioda, te u istom periodu svake godine dodajete predefiniranu količinu novca."
+            android:textAppearance="@style/TextAppearance.StatusBar.EventContent.Line2" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="8.79"
+            app:srcCompat="@drawable/kamata" />
+
+        <Button
+            android:id="@+id/btnStart"
+            style="@android:style/Widget.Material.Button"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_weight="1.22"
+            android:text="Počni!" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
